@@ -16,7 +16,39 @@
   --heading-font: "Nunito",  sans-serif;
   --nav-font: "Inter",  sans-serif;
 }
-
+section#about-us {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+section#about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+section#about-us p {
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+.hidden-content {
+  text-align: center;
+  display: none;
+  margin-top: 1rem;
+}
+.btn-toggle {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.btn-toggle:hover {
+  background-color: #0056b3;
+}
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -981,6 +1013,7 @@ section,
 }
 
 .about .about-description {
+  
   margin-bottom: 2rem;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }

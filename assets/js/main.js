@@ -175,3 +175,14 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+function toggleContent() {
+  const content = document.getElementById("hidden-content");
+  const button = document.querySelector(".btn-toggle");
+  if (content.style.display === "none" || content.style.display === "") {
+    content.style.display = "block";
+    button.textContent = "Show Less";
+  } else {
+    content.style.display = "none";
+    button.textContent = "Read More";
+  }
+}
