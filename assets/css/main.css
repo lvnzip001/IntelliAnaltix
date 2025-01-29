@@ -190,6 +190,13 @@ h6 {
   transition: 0.3s;
 }
 
+/* if mobile */
+@media (max-width: 1200px) {
+  .header .btn-getstarted{
+    display: none;
+  }
+}
+
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
@@ -458,6 +465,9 @@ h6 {
     display: block;
   }
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Global Footer
