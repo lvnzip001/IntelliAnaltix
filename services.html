@@ -126,10 +126,10 @@
           <li><a href="#about">About</a></li>
           <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Custom Website Designs</a></li>
-              <li><a href="#">eCommerce Solutions</a></li>
-              <li><a href="#">Powerful SaaS Products</a></li>
-              <li><a href="#">Maintenance & Support</a></li>
+              <li><a href="services.html">Custom Website Designs</a></li>
+              <li><a href="services.html">eCommerce Solutions</a></li>
+              <li><a href="services.html">Powerful SaaS Products</a></li>
+              <li><a href="services.html">Maintenance & Support</a></li>
             </ul>
           </li>
           <li><a href="#pricing">Pricing</a></li>
@@ -207,7 +207,7 @@
                     <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar">
                     <span class="avatar more">50+</span>
                   </div>
-                  <p class="mb-0 mt-2">Trusted by businesses worldwide to deliver exceptional results</p>
+                  <p class="mb-0 mt-2">You need a webiste but not sure of What you want, Speak with a <a href="#contact">consultant.</a></p>
                 </div>
               </div>
             </div>
@@ -324,19 +324,23 @@
       {
         title: "Custom Web Solutions",
         desc: "We build tailored web applications using powerful frameworks like React and Node.js to match your unique business needs. Our solutions are designed to be scalable, meaning they grow as your business grows—without slowing you down. From fast-loading interfaces to secure backend systems, we make sure your web app is flexible, future-proof, and user-friendly. Whether you are starting from scratch or improving an existing platform, we deliver performance that supports your success. "
+       // bg: "#fff7e6"
       },
 
       {
         title: "Mobile-First Design",
         desc: "We build responsive layouts that adapt beautifully to all screen sizes, focusing on mobile-first best practices for speed and performance.We create responsive layouts that look great and work smoothly on any device—whether it's a phone, tablet, or desktop. By following mobile-first design principles, we ensure your website loads quickly and delivers an excellent user experience on smaller screens first.This approach not only improves usability but also helps with SEO, since search engines like Google prioritize mobile-friendly websites. Your visitors stay engaged longer, and your site performs better across all platforms. "
+       // bg: "#e6f0ff"
       },
       {
         title: "eCommerce solutions",
         desc: "We design and develop powerful eCommerce websites that make it easy for your customers to browse, shop, and pay securely—whether they're on a phone or desktop. From showcasing your products beautifully to offering a smooth checkout experience, we build online stores that are fast, user-friendly, and reliable.Whether you're starting fresh or upgrading your current store, we’ll integrate trusted payment gateways, inventory systems, and mobile-friendly features to help you sell more and manage less. Our goal is to help you grow your business online with a storefront that works for you 24/7. "
+       // bg: "#e6fff2"
       },
       {
         title: "Powerful SaaS Products",
         desc: "We build scalable, cloud-based SaaS (Software as a Service) products designed to solve real problems and deliver consistent value to users. Whether it's a productivity tool, management system, or custom business platform, our SaaS solutions are built to perform, grow, and adapt—securely and efficiently. From concept to deployment, we handle everything: user experience design, feature development, performance optimization, and ongoing support. Our goal is to help you launch a product that your users love—and your business can depend on."
+       // bg: '#ffe6e6', 
       }
     ];
 
@@ -346,6 +350,9 @@
         <p>${serviceContent[index].desc}</p>
       
       `;
+
+      
+
     };
 
     const swiper = new Swiper('.mySwiper', {
